@@ -1,0 +1,25 @@
+---
+const { headDescription } = Astro.props
+const { headKeywords } = Astro.props
+const { headTitle } = Astro.props
+
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<html lang="en">
+	<head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="description" content={ headDescription } />
+    <meta name="keywords" content={ headKeywords } />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{ headTitle }</title>
+  </head>
+	<body class="bg-white dark:bg-slate-300 text-slate-800">
+    <Header />
+		<slot />
+    <Footer />
+	</body>
+</html>

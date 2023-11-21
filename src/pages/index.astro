@@ -1,0 +1,70 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Marquee from '../components/Marquee.astro';
+---
+
+<BaseLayout 
+	headTitle = "Home"
+	headDescription = "My cool webpage"
+	headKeywords = "Tailwind, UX, UI, webdesign"
+>
+	<div class="container mx-auto p-8">
+		<Marquee subhed="Prototype your ideas quickly with quality pre-built components." />
+	</div>
+
+	<div class="flex p-8 bg-slate-100">
+		<div class="container mx-auto p-8 max-w-3xl grid grid-cols-1 md:grid-cols-2 grid-rows-2">
+
+			<div class="p-8 flex gap-2">
+				<div>
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 001.5-1.5V6a1.5 1.5 0 00-1.5-1.5H3.75A1.5 1.5 0 002.25 6v12a1.5 1.5 0 001.5 1.5zm10.5-11.25h.008v.008h-.008V8.25zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+					</svg>
+				</div>
+				<div>					
+					<h2 class="text-1xl font-bold">Created by a designer</h2>
+					<p class="text-slate-500">Designed by a UI/UX designer with 20+ years of real world experience</p>
+				</div>
+			</div>
+
+			<div class="p-8 flex gap-2">
+				<div>
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 00.75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 00-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0112 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 01-.673-.38m0 0A2.18 2.18 0 013 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 013.413-.387m7.5 0V5.25A2.25 2.25 0 0013.5 3h-3a2.25 2.25 0 00-2.25 2.25v.894m7.5 0a48.667 48.667 0 00-7.5 0M12 12.75h.008v.008H12v-.008z" />
+					</svg>
+					
+				</div>
+				<div>					
+					<h2 class="text-1xl font-bold">Really useful</h2>
+					<p class="text-slate-500">Design patterns you'll really use for websites, mobile apps and more</p>
+				</div>
+			</div>
+
+			<div class="p-8 flex gap-2">
+				<div>
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M14.25 9.75L16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0020.25 18V6A2.25 2.25 0 0018 3.75H6A2.25 2.25 0 003.75 6v12A2.25 2.25 0 006 20.25z" />
+					</svg>
+				</div>
+				<div>					
+					<h2 class="text-1xl font-bold">Supports Tailwind 3.X+</h2>
+					<p class="text-slate-500">Everything is tested and ready for Tailwind 3.X</p>
+				</div>
+			</div>
+
+
+			<div class="p-8 flex gap-2">
+				<div>
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M15.042 21.672L13.684 16.6m0 0l-2.51 2.225.569-9.47 5.227 7.917-3.286-.672zM12 2.25V4.5m5.834.166l-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243l-1.59-1.59" />
+					</svg>
+				</div>
+				<div>					
+					<h2 class="text-1xl font-bold">One more great benefit</h2>
+					<p class="text-slate-500">When I think of the one other thing it will go here</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</BaseLayout>

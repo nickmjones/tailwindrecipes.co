@@ -1,0 +1,19 @@
+---
+import ComponentLayout from '../layouts/ComponentLayout.astro';
+import SideBar from '../components/SideBar.astro';
+---
+
+<ComponentLayout 
+	headTitle = "Home"
+	headDescription = "My cool webpage"
+	headKeywords = "Tailwind, UX, UI, webdesign"
+>
+  <div class="flex">
+    <div class="flex w-1/4 p-8 bg-stone-50">
+      <SideBar />
+    </div>
+    <div class="p-8">
+      Main content.
+    </div>
+  </div>
+</ComponentLayout>
