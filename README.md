@@ -1,3 +1,2 @@
-# Tailwind Recipes
-## Designer components for Tailwind & Astro
+### Tailwind Recipes - Designer components for Tailwind & Astro
 --
