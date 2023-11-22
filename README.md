@@ -1,4 +1,3 @@
 # Tailwind Recipes
----
-
-Offering useful UI patterns created with Tailwind.
+## Designer components for Tailwind & Astro
+--
